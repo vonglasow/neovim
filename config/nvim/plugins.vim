@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'autozimu/LanguageClient-neovim', { 'do': ':UpdateRemotePlugins' }
+Plug 'godlygeek/tabular'
 Plug 'hoaproject/Contributions-Vim-Pp'
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 Plug 'junegunn/vim-easy-align'
@@ -27,7 +28,6 @@ call plug#end()
 "Plugin 'altercation/vim-colors-solarized'
 "Plugin 'alvan/vim-phpmanual'
 "Plugin 'chase/vim-ansible-yaml'
-"Plugin 'godlygeek/tabular'
 "Plugin 'itchyny/calendar.vim'
 "Plugin 'jeetsukumaran/vim-buffergator'
 "Plugin 'johngrib/vim-game-code-break'
